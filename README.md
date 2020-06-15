@@ -14,5 +14,5 @@ The macro provides the centroid localization and calculation in steps 3 & 4. The
 
 This measurement provides a means to plot a radial distance from the objects centroid as a function of theta.
 
-[1] J. Kilday, F. Palmieri and M. D. Fox, IEEE Trans. Med. Imaging, 1993, 12, 664-669. 
-[2] S. Pohlman, K. A. Powell, N. A. Obuchowski, W. A. Chilcote and S. Grundfest-Broniatowski, Med. Phys., 1996, 23, 1337-1345.
+[1] J. Kilday, F. Palmieri and M. D. Fox, IEEE Trans. *Med. Imaging*, **1993**, 12, 664-669. 
+[2] S. Pohlman, K. A. Powell, N. A. Obuchowski, W. A. Chilcote and S. Grundfest-Broniatowski, *Med. Phys.*, **1996**, 23, 1337-1345.
