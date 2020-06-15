@@ -5,12 +5,12 @@ technique introduced for the classification of breast tumours in medical imaging
 
 The routine is semi-automated and requires the following steps: 
 
-1. pre-processing and segmentation of images to obtain thresholded binary images of an isolated particle. 
-2. centroid localization to determine object centre.
-3. radial distance calculation using the centroid as the origin and polar coordinates of each perimeter pixel. 
+1. Pre-processing and segmentation of images to obtain thresholded binary images of an isolated particle.
+2. Object selection.
+3. Centroid localization to determine object centre.
+4. Radial distance calculation using the centroid as the origin and polar coordinates of each perimeter pixel. 
 
-The macro provides the calculation in step 3. Step 1 & 2 are required before running the macro and are typical of particle sizing routines in 
-imageJ (Analyze > Analyze particles...). 
+The macro provides the centroid localization and calculation in steps 3 & 4. The pre-processing step in 1 is required before running the macro. Typical thresholding steps used particle sizing routines should be appropriate. Object selection can be easily achieved using the magic wand tool in imageJ to slect the outlining pixels.
 
 This measurement provides a means to plot a radial distance from the objects centroid as a function of theta.
 
